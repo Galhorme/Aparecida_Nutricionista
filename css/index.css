@@ -1,0 +1,190 @@
+
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #ede4e2
+}
+
+.cabecalho{
+	width: auto;
+    margin: 0 auto;
+}
+
+header{
+	background-color: rgb(33, 132, 48);
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+	padding-top: 10px;
+	text-align: center;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.tabela-principal{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+	margin: 5% 5%;
+	margin-top: 0;
+}
+
+.novo-paciente{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+	margin: 5% 4%;
+	margin-top: 0;
+}
+
+.filtrar-tabela{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	flex-direction: column;
+	background-color: white;
+}
+.container{
+	margin: 5% 5%;
+	margin-top: 0;
+}
+
+.parametros-tabela{
+	width: 90vw;
+}
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+td, th {
+	padding-top: .7em;
+	padding-bottom: 10px;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+	width: 18vw;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+	text-align: center;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	min-width: 90vw;
+    padding-bottom: 15px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+	padding-bottom: 15px;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 80vw;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel {
+	display: none;
+}
+
+#form-adiciona{
+	width: auto;
+}

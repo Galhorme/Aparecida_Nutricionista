@@ -1,0 +1,19 @@
+@media screen and (max-width: 655px) {
+    .header, .container, section, .campo-invalido, .campo-medio, .grupo, button, .novo-paciente {
+        width: auto;
+    }
+    
+    .tabela-principal{
+        align-items: unset;
+    }
+    .grupo{
+        margin-top: 10%;
+    }
+    .campo {
+        width: 90vw
+    }
+    
+    table{
+        max-width: 80vw;
+    }
+    }
